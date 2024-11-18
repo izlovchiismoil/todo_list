@@ -1,0 +1,27 @@
+@import url("./izlovchi-base.css");
+:root {
+    --primary-color: #6C63FF;
+    --secondary-color: #323238;
+    --danger-color: #F75A68;
+    --light-color: #FFFFFF;
+    --dark-color: #202024;
+    --border-widht: 1px;
+    --border-color: #86b7fe;
+    --border-color-default: #dee2e6;
+    --border-radius-default: 0.375rem;
+    --size-1: 4em;
+    --size-2: 3.2em;
+    --size-3: 2.8em;
+    --size-4: 2.4em;
+    --size-5: 2em;
+    --size-6: 1.6em;
+}
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+html {
+    font-size: 10px;
+}

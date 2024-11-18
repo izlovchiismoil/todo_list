@@ -1,0 +1,38 @@
+#search-input {
+    background-image: url("../images/icons8-search-24.png");
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: center;
+}
+#search-select {
+    background-image: url("../images/icons8-down-24.png");
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: center;
+}
+
+/* List */
+#list {
+    width: 52rem;
+}
+.list-item {
+    height: 3rem;
+}
+.crud:first-child,
+.crud:last-child {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+.crud:first-child {
+    width: 2.1rem;
+    height: 2.1rem;
+    background-image: url("../images/icons8-edit.svg");
+
+}
+.crud:last-child {
+    width: 1.8rem;
+    height: 1.8rem;
+    background-image: url("../images/icons8-delete.svg");
+}

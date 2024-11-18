@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/defaults/izlovchi.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <title>TO DO LIST</title>
+</head>
+<body class="container d-flex flex-column align-items-center border m-auto">
+    <header class="container border">
+        <h1 class="text-center pt-1 pb-1">TO DO LIST</h1>
+    </header>
+    <main class="container border pt-1 pb-1">
+        <section id="search">
+            <form action="javascript:void(0)" class="d-flex justify-content-center g-1">
+                <input type="search" id="search-input" class="form-control-inline-block w-75" placeholder="Search note...">
+                <select id="search-select" class="form-control-inline-block text-light w-10 bg-primary fs-6">
+                    <option value="0">ALL</option>
+                    <option value="1">ALL</option>
+                    <option value="2">ALL</option>
+                    <option value="3">ALL</option>
+                </select>
+            </form>
+        </section>
+        <section id="list" class="border m-auto">
+            <div class="list-item d-flex justify-content-between">
+                <div class="w-75 border">
+                    <input type="checkbox" id="check1">
+                    <span>NOTE #1</span>
+                </div>
+                <div class="crud border w-25">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="list-item d-flex justify-content-between">
+                <div id="check2">
+                    <input type="checkbox">
+                    <span>NOTE #1</span>
+                </div>
+                <div class="crud">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="list-item d-flex justify-content-between">
+                <div id="check3">
+                    <input type="checkbox">
+                    <span>NOTE #1</span>
+                </div>
+                <div class="crud">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
